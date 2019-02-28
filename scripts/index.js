@@ -1,4 +1,4 @@
-/* global store, Item, shoppingList, cuid */
+/* global store, Item, cuid, shoppingList*/
 
 // eslint-disable-next-line no-unused-vars
 
@@ -10,5 +10,6 @@ $(document).ready(function() {
   shoppingList.render();
 });
 
+console.log(store);
 console.log(Item);
 console.log(foo);
